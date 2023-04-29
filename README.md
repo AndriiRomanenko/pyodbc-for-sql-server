@@ -12,5 +12,5 @@ and change `libmsodbcsql` version in `.profile.d/configure-odbc.sh`
 - The second buildpack should be heroku/python:
   `heroku buildbpacks:add https://github.com/heroku/heroku-buildpack-python.git -a <app name>`
 - Add current buildpack:
-  `heroku buildbpacks:add https://github.com/AndriiRomanenko/python-pyodbc-buildpack.git -a <app name>`
+  `heroku buildbpacks:add https://github.com/AndriiRomanenko/pyodbc-for-sql-server.git -a <app name>`
 - Rebuild your project for creating a new release using these buildpacks
